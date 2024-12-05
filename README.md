@@ -53,9 +53,9 @@
 2. To compile the FM, CPGC, and Dinics algorithm code use the following commands, respectively:
 - change the directory to the main directory (i.e. the main folder of the repo) in the terminal,
 - for compiling FM code use ```gcc fm.c -lm -o fm```
-- for compiling CPGC code use ```gcc cpgc.c -lm cpgc```
-- for compiling Dinics for bipartite code use ```gcc dinics_bi.c -lm dinics_bi```
-- for compiling Dinics for tripartite code use ```gcc dinics_tri.c -lm dinics_tri```
+- for compiling CPGC code use ```gcc cpgc.c -lm -o cpgc```
+- for compiling Dinics for bipartite code use ```gcc dinics_bi.c -lm -o dinics_bi```
+- for compiling Dinics for tripartite code use ```gcc dinics_tri.c -lm -o dinics_tri```
 
 3. To run the FM and CPGC code use the following commands, respectively:
 - change the directory to the main directory (i.e. the main folder of the repo) in the terminal,
